@@ -38,7 +38,10 @@ forEaach(array, function (string, i) { // Will wait 5 seconds after each string 
 console.log(string);
 }, 5000);
 ```
-I think this example explains how to use the function pretty well. You might ask, how is this useful for rate limits? In most cases, the requests you'll need to throttle are all to the same endpoint. If you are working directly with an API using something like [node-fetch](https://www.npmjs.com/package/node-fetch) you can load an array with each URL you need to request. If there is a strict rate limit of 10 milliseconds between each request on the same URL you supply an array whose length matches the number of requests you want to make. If you want to make a request indefinitely you can use a simple interval instead.
+I think this example explains how to use the function pretty well. You might ask, how is this useful for rate limits? In most cases, the requests you'll need to throttle are all to the same endpoint. 
+- If you are working directly with an API using something like [node-fetch](https://www.npmjs.com/package/node-fetch) you can load an array with each URL you need to request. 
+- If there is a strict rate limit of 10 milliseconds between each request on the same URL you supply an array whose length matches the number of requests you want to make. 
+- If you want to make a request indefinitely you can use a simple interval instead.
 
 There are many other applications for this function, I would love to see what you all do with it. Please [contact me by email](mailto:obs@obs.wtf) if you have any issues.
 
