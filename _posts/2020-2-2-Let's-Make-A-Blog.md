@@ -4,6 +4,8 @@ title: Let's Make A Blog
 comments: true
 ---
 
-So here we are. The Altertrail blog. What is it? This is an area where ideas, tutorials, information and more will be shared by myself and our staff members.
+So here we are. The OBS.wtf blog... Nah this is a blog for OBSCode, here I will be posting articles about coding and anything else of interest. Please comment some ideas too. 
 
-*trever@altertrail.com (President)*
+> OBS
+> Chief Executive Officer
+> OBSCode 
