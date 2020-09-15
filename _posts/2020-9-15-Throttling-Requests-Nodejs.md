@@ -30,7 +30,7 @@ async function forEaach(arr, func, delay) {
 	})
 }
 ```
-This is a little different from what you might have expected. I used event emitters to register when it is complete. This method may seem unorthodox but it is actually quite effective. The use of event emitters also allows you to await the completion of the loop. The function works the same as Array.forEach except it includes a delay. It is also important to note that because I am not changing the Array class, the function is run on its own. Here is an example of using the function.
+This is a little different from what you might have expected. I used event emitters to register when it is complete, this method may seem unorthodox but it is actually quite effective. This allows you to await the completion of the loop and stop the loop from continuing forever. The function works the same as Array.forEach except it includes a delay. It is also important to note that because I am not changing the Array class, the function is run on its own. Here is an example of using the function.
 ```js
 var array = ["1", "2", "3"]; // An array of strings
 
